@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface VoteOptionRepository extends CrudRepository<VoteOption,Long> {
 
-    List<VoteOption> findAllByOrderByIdAsc(Poll poll);
+    List<VoteOption> findAllByOrderByIdAsc();
 
 }
